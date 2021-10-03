@@ -1,7 +1,7 @@
 <?php
     $to = 'demo@spondonit.com';
     $firstname = $_POST["fname"];
-    $email= $_POST["email"];
+    $emails= $_POST["email"];
     $text= $_POST["message"];
     $phone= $_POST["phone"];
     
@@ -15,7 +15,7 @@
         <tr>
             <td>'.$firstname.'  '.$laststname.'</td>
         </tr>
-        <tr><td>Email: '.$email.'</td></tr>
+        <tr><td>Email: '.$emails.'</td></tr>
         <tr><td>phone: '.$phone.'</td></tr>
         <tr><td>Text: '.$text.'</td></tr>
         
